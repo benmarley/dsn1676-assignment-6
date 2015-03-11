@@ -54,17 +54,22 @@ div {
 .panel {
   width: 250px;
   top: 50%;
-
   background-color: yellow;
   transform: translateY(-50%);
-
+  max-height:10em;
   color: darkgoldenrod;
   text-align: center;
+  overflow: hidden;
+  transition: all 400ms linear;
 }
 
 .panel h2 {
   margin: 0;
   padding: 3rem 0;
+}
+
+.panel-collapse {
+  max-height: 0;
 }
 
 .circle {
