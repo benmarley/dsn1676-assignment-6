@@ -7,8 +7,8 @@ var $diamond = $('.diamond')
 var $collapse = $('.btn-collapse-expand')
 var $panel = $('.panel')
 
-var $bounce = $(.btn-bounce)
-var $circle = $(.circle)
+var $bounce = $('.btn-bounce')
+var $circle = $('.circle')
 
 $show.on('click', function () {
 	$box.toggleClass('opacity-animate');
@@ -23,5 +23,5 @@ $collapse.on('click', function () {
 })
 
 $bounce.on('click', function () {
-	$circle.toggleClass('');
+	$circle.toggleClass('bouncing')
 })
