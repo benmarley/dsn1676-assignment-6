@@ -107,6 +107,14 @@ div {
 }
 
 
+.overflow {
+  overflow:hidden;
+}
+
+.diamond-move {
+  right: 5em;
+}
+
 .list {
   bottom: 1em;
   margin: 0;
@@ -115,7 +123,6 @@ div {
   right: 1em;
   top: 1em;
   width: 250px;
-
   border: 1px solid #ccc;
   overflow: hidden;
   overflow-y: auto;
@@ -123,17 +130,38 @@ div {
 
 .list li {
   padding: 0.5em;
-
   background-color: plum;
   border: 1px solid mediumpurple;
 
   color: mediumpurple;
+  max-height: 0;
+  overflow: hidden;
+}
+.js-list {
+ -webkit-animation: appending 200ms linear forwards;
+  animation: appending 200ms linear forwards;
 }
 
-.overflow {
-  overflow:hidden;
+-webkit-@keyframes appending {
+  
+  0% {
+    max-height: 0em;
+
+  }
+  100% {
+    max-height: 2em;
+
+  }
 }
 
-.diamond-move {
-  right: 5em;
+@keyframes appending {
+  
+  0% {
+    max-height: 0em;
+
+  }
+  100% {
+    max-height: 2em;
+
+  }
 }
