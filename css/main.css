@@ -32,6 +32,7 @@ div {
   top: calc(50% - 50px);
   width: 200px;
   background-color: limegreen;
+  -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   opacity: 0;
 }
@@ -40,12 +41,12 @@ div {
   opacity: 1;
 }
 
-
 .diamond {
   height: 80px;
   right: -7em;
   top: calc(50% - 40px);
   width: 80px;
+  -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
   background-color: hotpink;
   transform: rotate(45deg);
@@ -60,6 +61,7 @@ div {
   color: darkgoldenrod;
   text-align: center;
   overflow: hidden;
+  -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
 }
 
@@ -127,7 +129,6 @@ div {
   }
 }
 
-
 .overflow {
   overflow:hidden;
 }
@@ -166,11 +167,10 @@ div {
   
   0% {
     max-height: 0em;
-
   }
+
   100% {
     max-height: 2em;
-
   }
 }
 
@@ -178,8 +178,8 @@ div {
   
   0% {
     max-height: 0em;
-
   }
+
   100% {
     max-height: 2em;
 
