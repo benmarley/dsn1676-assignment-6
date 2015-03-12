@@ -49,6 +49,7 @@ div {
   -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
   background-color: hotpink;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -56,6 +57,7 @@ div {
   width: 250px;
   top: 50%;
   background-color: yellow;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   max-height:10em;
   color: darkgoldenrod;
