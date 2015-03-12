@@ -85,6 +85,27 @@ div {
   animation: bounces 500ms ease-in alternate;
 }
 
+-webkit-@keyframes bounces {
+  0% {
+    -webkit-transform: translateY(0px) translateX(0px);
+  }
+  20% {
+    -webkit-transform: translateY(-30px) translateX(-50px);
+  }
+  40% {
+    -webkit-transform: translateY(30px) translateX(-100px);
+  }
+  60% {
+    -webkit-transform: translateY(-30px) translateX(-150px);
+  }
+  80% {
+    -webkit-transform: translateY(30px) translateX(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-30px) translateX(-250px);
+  }
+}
+
 @keyframes bounces {
   0% {
     transform: translateY(0px) translateX(0px);
