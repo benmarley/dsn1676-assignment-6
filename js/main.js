@@ -1,17 +1,17 @@
 var $show = $('.btn-show-hide');
 var $box = $('.box');
 
-var $btnmove = $('.btn-move')
-var $diamond = $('.diamond')
+var $btnmove = $('.btn-move');
+var $diamond = $('.diamond');
 
-var $collapse = $('.btn-collapse-expand')
-var $panel = $('.panel')
+var $collapse = $('.btn-collapse-expand');
+var $panel = $('.panel');
 
-var $bounce = $('.btn-bounce')
-var $circle = $('.circle')
+var $bounce = $('.btn-bounce');
+var $circle = $('.circle');
 
-var $appendBtn = $('.btn-append')
-var $list = $('.list')
+var $appendBtn = $('.btn-append');
+var $list = $('.list');
 
 $show.on('click', function () {
 	$box.toggleClass('opacity-animate');

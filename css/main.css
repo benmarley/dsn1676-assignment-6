@@ -76,16 +76,16 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 100px;
-
   background-color: orange;
   border-radius: 50%;
 }
 
 .bouncing {
+  -webkit-animation: bounces 500ms ease-in alternate;
   animation: bounces 500ms ease-in alternate;
 }
 
--webkit-@keyframes bounces {
+@-webkit-keyframes bounces {
   0% {
     -webkit-transform: translateY(0px) translateX(0px);
   }
@@ -153,7 +153,6 @@ div {
   padding: 0.5em;
   background-color: plum;
   border: 1px solid mediumpurple;
-
   color: mediumpurple;
   max-height: 0;
   overflow: hidden;
@@ -163,7 +162,7 @@ div {
   animation: appending 200ms linear forwards;
 }
 
--webkit-@keyframes appending {
+@-webkit-keyframes appending {
   
   0% {
     max-height: 0em;
